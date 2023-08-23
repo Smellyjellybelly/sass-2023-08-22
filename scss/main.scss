@@ -1,0 +1,25 @@
+// problem 1 --
+$primary-color: rgb(123, 84, 195);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: $primary-color;
+}
+
+.box {
+    background-color: $primary-color;
+
+    width:380px;
+    height: 540px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 2rem;
+}
