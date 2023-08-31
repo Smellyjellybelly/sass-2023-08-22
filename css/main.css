@@ -16,4 +16,61 @@ h1 {
   align-items: center;
   justify-content: center;
   padding: 2rem;
+}
+
+header {
+  background-color: rgb(123, 84, 195);
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  padding: 1rem 2rem;
+}
+header nav ul li:hover {
+  background-color: darkcyan;
+}
+
+.blueberry {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  background-color: yellow;
+  color: blue;
+  border-radius: 2rem;
+}
+
+.chocolate {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  background-color: rgb(53, 26, 26);
+  color: rgb(171, 124, 76);
+  border-radius: 1rem;
+}
+
+.oreo {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  background-color: black;
+  color: white;
+  border-radius: 0;
+}
+
+p {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+.fart h1 {
+  color: #DAE8ED;
+}
+.fart h2 {
+  color: #D9BAE0;
+}
+.fart h3 {
+  color: #F8D88D;
 }/*# sourceMappingURL=main.css.map */
